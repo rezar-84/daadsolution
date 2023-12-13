@@ -42,7 +42,14 @@
     "drupal/rules": "^3.0@alpha",
     "drupal/features": "^3.13",
     "drupal/config_update": "^2.0@alpha",
-    "drupal/backup_migrate": "^5.0"
+    "drupal/backup_migrate": "^5.0",
+    "drupal/taxonomy_import": "^2.0",
+    "drupal/search_api": "^1.30",
+    "drupal/facets": "^3.0@beta",
+    "drupal/country_state_field": "^2.0",
+    "drupal/openai": "^1.0@beta",
+    "openai-php/client": "^0.7.10",
+    "drupal/dependent_country_state": "^1.0"
   },
   "require-dev": {
     "drupal/core-dev": "~10",
@@ -65,7 +72,8 @@
       "drupal/core-composer-scaffold": true,
       "drupal/core-project-message": true,
       "dealerdirect/phpcodesniffer-composer-installer": true,
-      "phpstan/extension-installer": true
+      "phpstan/extension-installer": true,
+      "php-http/discovery": true
     }
   },
   "scripts": {
