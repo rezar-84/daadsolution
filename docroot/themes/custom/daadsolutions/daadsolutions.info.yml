@@ -4,7 +4,7 @@ description: 'A flexible, recolorable theme with many regions and a responsive, 
 package: Reza Rezaei
 base theme: modins
 libraries:
-  - modins_sub/global-styling
+  - daadsolutions/global-styling
 
 regions:
   offcanvas: 'After Offcanvas'
