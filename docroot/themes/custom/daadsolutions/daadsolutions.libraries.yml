@@ -1,4 +1,4 @@
-Daadsolutions.skin.default:
+daadsolutions.skin.default:
    version: VERSION
    header: true
    css:

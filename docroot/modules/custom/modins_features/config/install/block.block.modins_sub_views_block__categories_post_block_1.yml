@@ -25,7 +25,6 @@ settings:
   provider: views
   views_label: Categories
   items_per_page: none
-  exposed: {  }
 visibility:
   request_path:
     id: request_path

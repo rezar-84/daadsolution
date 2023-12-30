@@ -24,11 +24,6 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  content_moderation_control:
-    settings: {  }
-    third_party_settings: {  }
-    weight: -20
-    region: content
   field_location_address:
     type: string
     label: above
@@ -71,4 +66,3 @@ content:
     region: content
 hidden:
   langcode: true
-  search_api_excerpt: true

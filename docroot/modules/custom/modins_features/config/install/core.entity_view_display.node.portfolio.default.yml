@@ -22,11 +22,6 @@ content:
     third_party_settings: {  }
     weight: 2
     region: content
-  content_moderation_control:
-    settings: {  }
-    third_party_settings: {  }
-    weight: -20
-    region: content
   field_portfolio_images:
     type: image
     label: hidden
@@ -53,4 +48,3 @@ content:
     region: content
 hidden:
   langcode: true
-  search_api_excerpt: true

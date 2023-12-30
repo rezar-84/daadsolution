@@ -31,11 +31,6 @@ content:
     third_party_settings: {  }
     weight: 1
     region: content
-  content_moderation_control:
-    settings: {  }
-    third_party_settings: {  }
-    weight: -20
-    region: content
   field_image:
     type: image
     label: hidden
@@ -75,4 +70,3 @@ hidden:
   field_post_gallery: true
   field_post_type: true
   langcode: true
-  search_api_excerpt: true

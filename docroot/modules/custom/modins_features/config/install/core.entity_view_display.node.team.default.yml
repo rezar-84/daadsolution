@@ -33,11 +33,6 @@ content:
     third_party_settings: {  }
     weight: 101
     region: content
-  content_moderation_control:
-    settings: {  }
-    third_party_settings: {  }
-    weight: -20
-    region: content
   field_team_contact:
     type: string
     label: hidden
@@ -121,4 +116,3 @@ hidden:
   field_team_pinterest: true
   field_team_twitter: true
   langcode: true
-  search_api_excerpt: true
