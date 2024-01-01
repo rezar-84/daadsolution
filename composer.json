@@ -179,6 +179,11 @@
     "patchLevel": {
       "drupal/core": "-p2"
     },
-    "patches": {  }
+    "patches": {
+      "drupal/ui_patterns_settings":{
+        "[3409221] ui_patterns_settings.module - array_unshift()": "https://git.drupalcode.org/project/ui_patterns_settings/-/merge_requests/21.patch"
+    }
+
+      }
   }
 }

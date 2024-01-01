@@ -4,5 +4,6 @@ daadsolutions.skin.default:
    css:
       theme:
          css/style.css: {}
+         css/style-rtl.css: {}
    js:
       js/main.js: {}
