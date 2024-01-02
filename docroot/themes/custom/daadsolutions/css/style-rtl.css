@@ -2,3 +2,23 @@
 body{
     font-family: 'Vazirmatn', sans-serif;
 }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+    font-family: 'Vazirmatn', sans-serif !important;
+
+}
+.gavias_sliderlayer{
+    direction:ltr;
+}
+.block-dropdown-language .dropbutton-wrapper ul.dropbutton:after{
+    float:right;
+}
+.breadcrumb-content-inner .gva-block-breadcrumb .breadcrumb-links nav.breadcrumb ol li{
+float: right;
+
+}
+.feature-carousel,.porfolio-carousel,.blog-carousel,.testimonial-main{
+    direction:ltr
+}
+.feature-one__single{
+    direction:rtl
+}
