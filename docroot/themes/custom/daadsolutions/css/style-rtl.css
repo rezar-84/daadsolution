@@ -6,6 +6,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
     font-family: 'Vazirmatn', sans-serif !important;
 
 }
+.persian-text{
+    font-family: 'Vazirmatn', sans-serif ;
+    
+}
 .gavias_sliderlayer{
     direction:ltr;
 }
@@ -21,4 +25,14 @@ float: right;
 }
 .feature-one__single{
     direction:rtl
+}
+
+ul.features-list > li:before{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.search-one__content{
+    right:auto;
+    left:0 !important;
+
 }
