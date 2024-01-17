@@ -8,7 +8,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 }
 .persian-text{
     font-family: 'Vazirmatn', sans-serif ;
-    
+
 }
 .gavias_sliderlayer{
     direction:ltr;
@@ -20,7 +20,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 float: right;
 
 }
-.feature-carousel,.porfolio-carousel,.blog-carousel,.testimonial-main{
+.feature-carousel,.porfolio-carousel,.blog-carousel,.testimonial-main ,.landing-ltr{
     direction:ltr
 }
 .feature-one__single{
@@ -34,5 +34,25 @@ ul.features-list > li:before{
 .search-one__content{
     right:auto;
     left:0 !important;
+
+}
+.title-line{
+    line-height: 2rem;
+}
+[dir="rtl"] .dropbutton-toggle {
+    left: auto;
+    right: 0;
+}
+.block-dropdown-language .dropbutton-wrapper ul.dropbutton {
+    position: absolute;
+    top: -5px;
+    right: 0;
+    display: inline-block;
+    float: right;
+    z-index: 9;
+    padding: 9px 35px 14px 35px;
+}
+span.language-link.active-language{
+    font-family: 'Vazirmatn', sans-serif;
 
 }
