@@ -3,7 +3,11 @@ daadsolutions.skin.default:
    header: true
    css:
       theme:
-         css/style.css: {}
-         css/style-rtl.css: {}
+         assets/css/style.css: {}
+
    js:
-      js/main.js: {}
+      assets/js/main.js: {}
+styles-rtl:
+   css:
+      theme:
+         assets/css/style-rtl.css:      

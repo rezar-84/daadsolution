@@ -52,7 +52,44 @@ ul.features-list > li:before{
     z-index: 9;
     padding: 9px 35px 14px 35px;
 }
+.block-dropdown-language .dropbutton-wrapper ul.dropbutton:after{
+    left:5px !important;
+    right: auto;
+}
 span.language-link.active-language{
     font-family: 'Vazirmatn', sans-serif;
 
 }
+
+.iconbox-seven__content-inner {
+    text-align: right;
+    padding-right: 20px;
+    direction: ltr;
+}
+
+/* portfolio */
+.portfolio-v1 .arrow {
+
+    left: 0;
+    right: auto;
+    font-size: 14px;
+    border-radius: 10px 0px 0px 10px;
+    clip-path: polygon(0% 0%, 45% 0%, 100% 100%, 0% 100%);
+    padding-right: 15px;
+}
+    .portfolio-v1 .content{
+    margin-right:30px;
+    margin-left: 0;
+    padding: 25px 20px 33px 61px;
+
+    }
+    
+    .fa-arrow-right:before {
+        content: "\f060" !important;
+    }
+
+
+    /* Grid float for articles */
+    [class*="block-grid-"] > div {
+        float: right;
+    }

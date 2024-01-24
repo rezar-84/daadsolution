@@ -50,7 +50,10 @@
     "drupal/openai": "^1.0@beta",
     "openai-php/client": "^0.7.10",
     "drupal/dependent_country_state": "^1.0",
-    "drupal/image_effects": "^3.5"
+    "drupal/image_effects": "^3.5",
+    "drupal/blazy": "^2.22",
+    "drupal/select_or_other": "^4.1",
+    "drupal/autocomplete_deluxe": "^2.0"
   },
   "require-dev": {
     "drupal/core-dev": "~10",

@@ -1,0 +1,20 @@
+
+.working-tbl{
+    border-style:none;
+
+}
+share-map ul li a {
+    background: #FFC107;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+.working-tbl td {
+    border-style:none;
+}
+
