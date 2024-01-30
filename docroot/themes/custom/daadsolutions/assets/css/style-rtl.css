@@ -93,3 +93,40 @@ span.language-link.active-language{
     [class*="block-grid-"] > div {
         float: right;
     }
+.post-content{
+    text-align:right;
+}
+
+    /* typography  */
+    .gsc-heading__sub-title span:before {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    content: "";
+    width: 18px;
+    height: 3px;
+    display: inline-block;
+    background: var(--modins-theme-color);
+    z-index: 1;
+    border-radius: 5px;
+}
+.gsc-heading__sub-title span:after {
+    display:none;
+}
+
+
+/* page builder elements */
+.progress .percentage{
+    right:auto;
+    left: 1px;
+}
+
+
+/* navigation */
+.menu-bar{
+    right:200px;
+}
+.navigation .gva_menu li a{
+    text-align: right !important;
+}
+
+.navigation .gva_menu .sub-menu{}
