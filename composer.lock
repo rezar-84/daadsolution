@@ -126,16 +126,16 @@
         },
         {
             "name": "bower-asset/jquery",
-            "version": "3.6.4",
+            "version": "3.7.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:jquery/jquery-dist.git",
-                "reference": "91ef2d8836342875f2519b5815197ea0f23613cf"
+                "url": "https://github.com/jquery/jquery-dist.git",
+                "reference": "fde1f76e2799dd877c176abde0ec836553246991"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/91ef2d8836342875f2519b5815197ea0f23613cf",
-                "reference": "91ef2d8836342875f2519b5815197ea0f23613cf"
+                "url": "https://api.github.com/repos/jquery/jquery-dist/zipball/fde1f76e2799dd877c176abde0ec836553246991",
+                "reference": "fde1f76e2799dd877c176abde0ec836553246991"
             },
             "type": "bower-asset",
             "license": [
@@ -7355,6 +7355,55 @@
             ]
         },
         {
+            "name": "drupal/gin_everywhere",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/gin_everywhere.git",
+                "reference": "1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/gin_everywhere-1.0.0.zip",
+                "reference": "1.0.0",
+                "shasum": "67586fd90c616ee568eda06c3a4a3a4a8c44b587"
+            },
+            "require": {
+                "drupal/core": "^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0",
+                    "datestamp": "1708271390",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Pascal Crott (Hydra)",
+                    "homepage": "https://www.drupal.org/u/hydra",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Enables Gin’s edit form layout for every content entity.",
+            "homepage": "https://www.drupal.org/project/gin_everywhere",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/gin_everywhere",
+                "issues": "https://www.drupal.org/project/issues/gin_everywhere"
+            }
+        },
+        {
             "name": "drupal/gin_login",
             "version": "2.0.3",
             "source": {
@@ -8040,17 +8089,17 @@
         },
         {
             "name": "drupal/imce",
-            "version": "3.0.11",
+            "version": "3.0.12",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/imce.git",
-                "reference": "3.0.11"
+                "reference": "3.0.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/imce-3.0.11.zip",
-                "reference": "3.0.11",
-                "shasum": "8d9fb9df41288baa7851a6700be1f1af47de00b1"
+                "url": "https://ftp.drupal.org/files/projects/imce-3.0.12.zip",
+                "reference": "3.0.12",
+                "shasum": "31c07ec0084892c5f6feb2737e42cd6e76944756"
             },
             "require": {
                 "drupal/core": "^9.3 || ^10"
@@ -8061,8 +8110,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.0.11",
-                    "datestamp": "1704304923",
+                    "version": "3.0.12",
+                    "datestamp": "1709855260",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -10833,7 +10882,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-1.17",
-                    "datestamp": "1705234146",
+                    "datestamp": "1709804220",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -13945,6 +13994,91 @@
             }
         },
         {
+            "name": "drupal/taxonomy_manager",
+            "version": "2.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/taxonomy_manager.git",
+                "reference": "2.0.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/taxonomy_manager-2.0.9.zip",
+                "reference": "2.0.9",
+                "shasum": "c1956d809ba2149b294eb68fe2f06ada34f4cadc"
+            },
+            "require": {
+                "drupal/core": "^9.3 || ^10",
+                "drupal/jquery_ui": "^1.4"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.9",
+                    "datestamp": "1691588453",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "alesbencina",
+                    "homepage": "https://www.drupal.org/user/3558110"
+                },
+                {
+                    "name": "Andriy Khomych",
+                    "homepage": "https://www.drupal.org/user/3287133"
+                },
+                {
+                    "name": "aurelianzaha",
+                    "homepage": "https://www.drupal.org/user/3575026"
+                },
+                {
+                    "name": "dragan_bp",
+                    "homepage": "https://www.drupal.org/user/3578037"
+                },
+                {
+                    "name": "JacobSanford",
+                    "homepage": "https://www.drupal.org/user/806538"
+                },
+                {
+                    "name": "joaogarin",
+                    "homepage": "https://www.drupal.org/user/612814"
+                },
+                {
+                    "name": "kalinchernev",
+                    "homepage": "https://www.drupal.org/user/231185"
+                },
+                {
+                    "name": "klausi",
+                    "homepage": "https://www.drupal.org/user/262198"
+                },
+                {
+                    "name": "mh86",
+                    "homepage": "https://www.drupal.org/user/59747"
+                },
+                {
+                    "name": "VladimirAus",
+                    "homepage": "https://www.drupal.org/user/673120"
+                }
+            ],
+            "description": "This module provides a powerful interface for managing taxonomies.",
+            "homepage": "https://www.drupal.org/project/taxonomy_manager",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "https://git.drupalcode.org/project/taxonomy_manager",
+                "issues": "https://www.drupal.org/project/issues/taxonomy_manager"
+            }
+        },
+        {
             "name": "drupal/taxonomy_menu",
             "version": "3.6.0",
             "source": {
@@ -15508,7 +15642,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/varbase_core.git",
-                "reference": "b36d47f65bf05e003b8ebea2dea4529ee0e31c85"
+                "reference": "42c89048496a4d433b3720e8c82e7b60a5a17db9"
             },
             "require": {
                 "composer/installers": "~2",
@@ -15553,7 +15687,8 @@
                 "drupal/field_group": "~3",
                 "drupal/flood_control": "~2",
                 "drupal/genpass": "~2",
-                "drupal/gin": "~3",
+                "drupal/gin": "3.0.0-rc9",
+                "drupal/gin_everywhere": "~1",
                 "drupal/gin_login": "~2",
                 "drupal/gin_moderation_sidebar": "~1",
                 "drupal/gin_toolbar": "~1",
@@ -15585,6 +15720,7 @@
                 "drupal/smart_trim": "~2",
                 "drupal/stage_file_proxy": "~2",
                 "drupal/taxonomy_access_fix": "~4",
+                "drupal/taxonomy_manager": "~2",
                 "drupal/token": "~1",
                 "drupal/token_filter": "~2",
                 "drupal/tour_ui": "~2",
@@ -15621,8 +15757,8 @@
                     "dev-10.0.x": "10.0.x-dev"
                 },
                 "drupal": {
-                    "version": "10.0.15+2-dev",
-                    "datestamp": "1709719431",
+                    "version": "10.0.16+8-dev",
+                    "datestamp": "1709835990",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -15647,6 +15783,7 @@
                 },
                 "patches": {
                     "drupal/core": {
+                        "Issue #3426062: Add the local patch from Drupal Distributions Recipes patch for Drupal core in Varbase Core to have Recipes functionality": "https://git.drupalcode.org/project/distributions_recipes/-/raw/patch/recipe-10.2.x.patch",
                         "Issue #2869592: Disabled update module shouldn't produce a status report warning": "https://www.drupal.org/files/issues/2869592-remove-update-warning-7.patch",
                         "Issue #2893892: Fixed Warning Invalid argument supplied for foreach() in Drupal": "https://www.drupal.org/files/issues/2018-12-10/core--getDerivatives-Invalid-argument-foreach--2893892-11-d8.patch",
                         "Issue #3044656: Add a helper method to strip subdirectories from URL paths": "https://www.drupal.org/files/issues/2019-03-31/3044656-2.patch",
@@ -15665,6 +15802,10 @@
                     },
                     "drupal/default_content": {
                         "Issue #3160146: Add Layout Builder Normalizer and Denormalize": "https://www.drupal.org/files/issues/2021-04-07/3160146-37.patch"
+                    },
+                    "drupal/gin": {
+                        "Issue #3325263: Fix user.data ServiceNotFoundException when using Gin as distribution installer theme": "https://www.drupal.org/files/issues/2023-10-22/3325263-24.patch",
+                        "Issue #3398040: Fix issue with changing between responsive views and Gin Toolbar over menus": "https://www.drupal.org/files/issues/2023-10-31/3398040-8.patch"
                     },
                     "drupal/persistent_login": {
                         "Issue #2899530 by josebc: Provide a permission for users to see Persistent Logins tab in their profiles": "https://www.drupal.org/files/issues/persistent_login-user_task_permission-2899530-6.patch"
@@ -15963,6 +16104,70 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/varbase_email",
                 "issues": "https://www.drupal.org/project/issues/varbase_email"
+            }
+        },
+        {
+            "name": "drupal/varbase_heroslider",
+            "version": "dev-1.0.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/varbase_heroslider.git",
+                "reference": "67bbe8b66f2e2720c96f141098720a1ec0931727"
+            },
+            "require": {
+                "composer/installers": "~2.0",
+                "cweagans/composer-patches": "~1.0",
+                "drupal/advanced_text_formatter": "~3.0",
+                "drupal/core": "~10",
+                "drupal/entityqueue": "~1.0",
+                "drupal/field_group": "~3.0",
+                "drupal/length_indicator": "~1.0",
+                "drupal/maxlength": "~2.0",
+                "drupal/rabbit_hole": "~2.0.0",
+                "drupal/varbase_components": "~2.0",
+                "drupal/varbase_media": "~10.0",
+                "oomphinc/composer-installers-extender": "~2.0",
+                "vardot/entity-definition-update-manager": "~1.0",
+                "vardot/module-installer-factory": "~1.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.0.x": "1.0.x-dev"
+                },
+                "drupal": {
+                    "version": "1.0.x-dev",
+                    "datestamp": "1709483170",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                },
+                "enable-patching": true,
+                "composer-exit-on-patch-failure": true,
+                "patches": []
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Vardot",
+                    "homepage": "https://www.drupal.org/vardot",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Rajab Natshah",
+                    "homepage": "https://www.drupal.org/user/1414312"
+                }
+            ],
+            "description": "Varbase Hero Slider : This app will populate the universal implementation of a \"Hero Slider\" to be used on the homepage in most cases. A rich hero slider that allows you to display video and/or image slides.",
+            "homepage": "https://www.drupal.org/project/varbase_heroslider",
+            "support": {
+                "source": "http://cgit.drupalcode.org/varbase_heroslider",
+                "issues": "http://drupal.org/project/issues/varbase_heroslider",
+                "slack": "http://slack.varbase.vardot.com"
             }
         },
         {
@@ -16651,15 +16856,15 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/vartheme_claro.git",
-                "reference": "7f3a2c18effd5227026c43c9626b7efe8551bb7f"
+                "reference": "cfb7fb0d0ea33b39f8a63059e4e72147f4ad4307"
             },
             "require": {
                 "composer/installers": "~2",
                 "cweagans/composer-patches": "~1",
                 "drupal/core": "~9.5.0 || ~10",
-                "drupal/gin": "3.0.0-rc9",
-                "drupal/gin_moderation_sidebar": "~1",
-                "drupal/gin_toolbar": "~1",
+                "drupal/gin": "@stable",
+                "drupal/gin_moderation_sidebar": "@stable",
+                "drupal/gin_toolbar": "@stable",
                 "oomphinc/composer-installers-extender": "~2"
             },
             "type": "drupal-theme",
@@ -16668,8 +16873,8 @@
                     "dev-4.0.x": "4.0.x-dev"
                 },
                 "drupal": {
-                    "version": "4.0.6+2-dev",
-                    "datestamp": "1706779229",
+                    "version": "4.0.7+1-dev",
+                    "datestamp": "1709825826",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
@@ -16677,12 +16882,7 @@
                 },
                 "enable-patching": true,
                 "composer-exit-on-patch-failure": true,
-                "patches": {
-                    "drupal/gin": {
-                        "Issue #3325263: Fix user.data ServiceNotFoundException when using Gin as distribution installer theme": "https://www.drupal.org/files/issues/2023-10-22/3325263-24.patch",
-                        "Issue #3398040: Fix issue with changing between responsive views and Gin Toolbar over menus": "https://www.drupal.org/files/issues/2023-10-31/3398040-8.patch"
-                    }
-                }
+                "patches": []
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
@@ -25180,12 +25380,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Vardot/varbase.git",
-                "reference": "3c682bd6840a22c64c69f953cbf09488d758c27e"
+                "reference": "5850bb6c36339d869b0f6a84772b4028190772cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Vardot/varbase/zipball/3c682bd6840a22c64c69f953cbf09488d758c27e",
-                "reference": "3c682bd6840a22c64c69f953cbf09488d758c27e",
+                "url": "https://api.github.com/repos/Vardot/varbase/zipball/5850bb6c36339d869b0f6a84772b4028190772cd",
+                "reference": "5850bb6c36339d869b0f6a84772b4028190772cd",
                 "shasum": ""
             },
             "require": {
@@ -25204,6 +25404,7 @@
                 "drupal/varbase_dashboards": "1.0.x-dev",
                 "drupal/varbase_editor": "10.0.x-dev",
                 "drupal/varbase_email": "10.0.x-dev",
+                "drupal/varbase_heroslider": "1.0.x-dev",
                 "drupal/varbase_heroslider_media": "10.0.x-dev",
                 "drupal/varbase_landing": "10.0.x-dev",
                 "drupal/varbase_layout_builder": "10.1.x-dev",
@@ -25357,7 +25558,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-02-17T00:32:25+00:00"
+            "time": "2024-03-06T17:49:51+00:00"
         },
         {
             "name": "webflo/drupal-finder",
@@ -25946,16 +26147,16 @@
         },
         {
             "name": "composer/pcre",
-            "version": "3.1.1",
+            "version": "3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/pcre.git",
-                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9"
+                "reference": "4775f35b2d70865807c89d32c8e7385b86eb0ace"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/pcre/zipball/00104306927c7a0919b4ced2aaa6782c1e61a3c9",
-                "reference": "00104306927c7a0919b4ced2aaa6782c1e61a3c9",
+                "url": "https://api.github.com/repos/composer/pcre/zipball/4775f35b2d70865807c89d32c8e7385b86eb0ace",
+                "reference": "4775f35b2d70865807c89d32c8e7385b86eb0ace",
                 "shasum": ""
             },
             "require": {
@@ -25997,7 +26198,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/pcre/issues",
-                "source": "https://github.com/composer/pcre/tree/3.1.1"
+                "source": "https://github.com/composer/pcre/tree/3.1.2"
             },
             "funding": [
                 {
@@ -26013,7 +26214,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-11T07:11:09+00:00"
+            "time": "2024-03-07T15:38:35+00:00"
         },
         {
             "name": "composer/spdx-licenses",
@@ -27191,16 +27392,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.59",
+            "version": "1.10.60",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e607609388d3a6d418a50a49f7940e8086798281"
+                "reference": "95dcea7d6c628a3f2f56d091d8a0219485a86bbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e607609388d3a6d418a50a49f7940e8086798281",
-                "reference": "e607609388d3a6d418a50a49f7940e8086798281",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/95dcea7d6c628a3f2f56d091d8a0219485a86bbe",
+                "reference": "95dcea7d6c628a3f2f56d091d8a0219485a86bbe",
                 "shasum": ""
             },
             "require": {
@@ -27249,7 +27450,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-20T13:59:13+00:00"
+            "time": "2024-03-07T13:30:19+00:00"
         },
         {
             "name": "phpstan/phpstan-deprecation-rules",
