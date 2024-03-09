@@ -40,8 +40,8 @@ ul.features-list > li:before{
     line-height: 2rem;
 }
 [dir="rtl"] .dropbutton-toggle {
-    left: auto;
-    right: 0;
+    left: auto !important;
+    right: 0 !important;
 }
 .block-dropdown-language .dropbutton-wrapper ul.dropbutton {
     position: absolute;
