@@ -53,7 +53,9 @@
     "drupal/image_effects": "^3.5",
     "drupal/blazy": "^2.22",
     "drupal/select_or_other": "^4.1",
-    "drupal/autocomplete_deluxe": "^2.0"
+    "drupal/autocomplete_deluxe": "^2.0",
+    "drupal/gdpr": "^3.0",
+    "drupal/eu_cookie_compliance": "^1.24"
   },
   "require-dev": {
     "drupal/core-dev": "~10",
@@ -179,7 +181,7 @@
       ]
     },
     "enable-patching": true,
-    "composer-exit-on-patch-failure": true,
+    "composer-exit-on-patch-failure": false,
     "patchLevel": {
       "drupal/core": "-p2"
     },
