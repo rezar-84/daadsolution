@@ -18,3 +18,17 @@ share-map ul li a {
     border-style:none;
 }
 
+
+.image-content-seven__image:before {
+    width: 90px;
+    height: 90px;
+    content: "";
+    background: url(../images/daad.png) no-repeat center center !important;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    z-index: 3;
+    border-radius: 6px;
+    -webkit-animation: animation_top_bottom 2.5s linear 0s infinite;
+    animation: animation_top_bottom 2.5s linear 0s infinite;
+}

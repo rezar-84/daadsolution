@@ -129,4 +129,8 @@ span.language-link.active-language{
     text-align: right !important;
 }
 
-.navigation .gva_menu .sub-menu{}
+.navigation .gva_menu .sub-menu {
+
+    right: 0;
+    left: auto;
+}
