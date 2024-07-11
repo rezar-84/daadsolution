@@ -32,3 +32,7 @@ share-map ul li a {
     -webkit-animation: animation_top_bottom 2.5s linear 0s infinite;
     animation: animation_top_bottom 2.5s linear 0s infinite;
 }
+
+.service-one__content{
+    min-height: 370px !important;
+}
