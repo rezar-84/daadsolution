@@ -1,38 +1,54 @@
-
-.working-tbl{
-    border-style:none;
-
+.working-tbl {
+  border-style: none;
 }
+
 share-map ul li a {
-    background: #FFC107;
-    color: #fff;
-    padding: 5px 15px;
-    border-radius: 5px;
-    transition: .4s;
+  background: #FFC107;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: 0.4s;
 }
 
 .list-inline-item {
-    display: inline-block;
-}
-.working-tbl td {
-    border-style:none;
+  display: inline-block;
 }
 
+.working-tbl td {
+  border-style: none;
+}
 
 .image-content-seven__image:before {
-    width: 90px;
-    height: 90px;
-    content: "";
-    background: url(../images/daad.png) no-repeat center center !important;
-    position: absolute;
-    top: -30px;
-    left: 0;
-    z-index: 3;
-    border-radius: 6px;
-    -webkit-animation: animation_top_bottom 2.5s linear 0s infinite;
-    animation: animation_top_bottom 2.5s linear 0s infinite;
+  width: 90px;
+  height: 90px;
+  content: "";
+  background: url(../images/daad.png) no-repeat center center !important;
+  position: absolute;
+  top: -30px;
+  left: 0;
+  z-index: 3;
+  border-radius: 6px;
+  -webkit-animation: animation_top_bottom 2.5s linear 0s infinite;
+  animation: animation_top_bottom 2.5s linear 0s infinite;
 }
 
-.service-one__content{
-    min-height: 370px !important;
+.service-one__content {
+  min-height: 330px !important;
+  padding: 15px 16px 15px;
 }
+
+.feature-one__single .feature-one__desc {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .image-content-six__image img {
+    min-height: 317px;
+  }
+}
+.post-block.teaser-3 .post-content {
+  min-height: 230px;
+}
+
+/*# sourceMappingURL=style.css.map */
