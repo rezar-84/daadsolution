@@ -51,4 +51,55 @@ share-map ul li a {
   min-height: 230px;
 }
 
+.image-content-two__image {
+  padding-left: 32px;
+}
+.image-content-two__image::before {
+  left: 5px;
+}
+
+.customers-view .owl-carousel .owl-item img {
+  height: 110px;
+}
+
+.custom-iconbox .iconbox-two__single {
+  min-height: 280px;
+}
+
+.feature-three__single {
+  min-height: 320px;
+}
+
+.service-five__single .service-five__content {
+  padding: 30px 30px 30px !important;
+}
+.service-five__single .service-five__content .service-five__desc {
+  text-align: justify;
+}
+
+.gsc-icon-box-classic .highlight-icon .icon-container .icon {
+  vertical-align: middle;
+}
+
+.webform-contact form {
+  padding: 20px !important;
+}
+.webform-contact fieldset.webform-composite-hidden-title {
+  margin-top: 0 !important;
+}
+.webform-contact .form-item label {
+  display: block !important;
+}
+.webform-contact .js-form-type-vertical-tabs {
+  display: none;
+}
+
+.post-block.teaser-1 .content-inner {
+  padding: 16px !important;
+}
+.post-block.teaser-1 .content-inner .post-block .post-title {
+  font-size: 18px !important;
+  min-height: 120px !important;
+}
+
 /*# sourceMappingURL=style.css.map */
