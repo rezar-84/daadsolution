@@ -102,4 +102,8 @@ share-map ul li a {
   min-height: 120px !important;
 }
 
+.breadcrumb-content-inner .gva-block-breadcrumb .page-title {
+  color: #fff;
+}
+
 /*# sourceMappingURL=style.css.map */
