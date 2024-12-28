@@ -142,7 +142,7 @@ span.language-link.active-language {
 }
 
 .phone-number-persian {
-  direction: rtl;
+  direction: ltr;
   unicode-bidi: bidi-override;
 }
 /*# sourceMappingURL=style-rtl.css.map */
