@@ -141,4 +141,8 @@ span.language-link.active-language {
   left: auto;
 }
 
+.phone-number-persian {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
 /*# sourceMappingURL=style-rtl.css.map */
